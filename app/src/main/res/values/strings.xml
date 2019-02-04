@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Umpire</string>
+    <string name="balls">0</string>
+    <string name="ballslbl">Balls</string>
+    <string name="strikeslbl">Stirkes</string>
+    <string name="strikes">0</string>
+    <string name="ball_btn">Ball</string>
+    <string name="strike_btn">Strike</string>
+    <string name="reset_btn">Reset</string>
+    <string name="outslbl">Outs</string>
+    <string name="outs">0</string>
+</resources>

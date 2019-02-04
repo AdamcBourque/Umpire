@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ballslbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ballslbl"
+        android:textSize="@dimen/button_font_size" />
+    <TextView
+        android:id="@+id/balls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/balls"
+        android:textSize="@dimen/textview_font_size" />
+    <TextView
+    android:id="@+id/strikeslbl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/strikeslbl"
+    android:textSize="@dimen/textview_font_size" />
+    <TextView
+        android:id="@+id/strikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strikes"
+        android:textSize="@dimen/textview_font_size" />
+    <TextView
+        android:id="@+id/outslbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/outslbl"
+        android:textSize="@dimen/textview_font_size" />
+    <TextView
+        android:id="@+id/outs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/outs"
+        android:textSize="@dimen/textview_font_size" />
+    <Button
+        android:id="@+id/ballbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ball_btn"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:onClick="ButtonClick"
+        android:textSize="@dimen/button_font_size" />
+
+    <Button
+        android:id="@+id/strikebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strike_btn"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:onClick="ButtonClick"
+        android:textSize="@dimen/button_font_size" />
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_btn"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:onClick="ButtonClick"
+        android:textSize="@dimen/button_font_size" />
+</LinearLayout>
